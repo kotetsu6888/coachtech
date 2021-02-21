@@ -143,7 +143,7 @@ input, select {
 
 #eyecatch {
   height: 600px;
-  background: url(../css/img/eyecatch.jpg) no-repeat;
+  background: url(../eyecatch.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
