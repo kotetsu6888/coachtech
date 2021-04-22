@@ -532,14 +532,22 @@ body {
     display: none;
   }
 
+  /* ------------------ firstview ------------------- */
+
+  #firstview {
+    width: 100%;
+
+  }
+
+
   /* -----------------catchcopyレスポンシブ----------- */
 
+  
   .catchcopy {
     text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    width: 80%;
+    margin: 0 auto;
+    top: 40%;
   }
 
   .news {
@@ -569,9 +577,21 @@ body {
     margin: 0 auto;
   }
 
+  /* --------------- company ------------------------- */
 
- 
+  .recruit-company_size {
+    width: 100%;
+  } 
 
+ /* ------------------ FAQ ------------------------ */
+
+ .faq-title {
+   font-size: 36px;
+ }
+
+ .faq-title-jp {
+   font-size: 28px;
+ }
 
 
 
