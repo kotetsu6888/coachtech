@@ -561,9 +561,6 @@ body {
 
   /* -------------------- service --------------- */
 
-  .service-content {
-  
-  }
 
   .service-img {
     margin: 0 auto;
@@ -586,17 +583,29 @@ body {
  /* ------------------ FAQ ------------------------ */
 
  .faq-title {
-   font-size: 36px;
+   font-size: 32px;
+   
  }
 
  .faq-title-jp {
-   font-size: 28px;
+   font-size: 22px;
+   padding-left: 10px;
  }
 
+/* ------------------ footer ------------------------- */
 
+.top-footer {
+  width: 100%;
+}
 
+.flex,
+.header-logo {
+  margin: 0 auto;
+}
 
-
+.top-footer small {
+  white-space: nowrap;
+}
 
 
 }
